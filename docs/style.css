@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+* {
+    font-family: "Fira Sans", sans-serif;
+}
+textarea {
+    width: 500px;
+    height: 200px;
+    font-family: monospace;
+}
+input {
+    font-family: monospace;
+}
+.center {
+    text-align: center;
+}
+#config {
+    margin-top: 20px;
+}

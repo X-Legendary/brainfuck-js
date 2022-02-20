@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./interpreter.js" defer></script>
+    <title>brainfuck-js</title>
+</head>
+<body>
+    <h1 class="center">Brainfuck JS</h1>
+    <h2 class="center">Brainfuck implementation written in JavaScript</h2>
+    <h3 class="center">Input:</h3>
+    <div class="center">
+        <textarea id="input" name="code" rows="4" cols="50" placeholder="Enter your code here..."></textarea>
+    </div>
+    <h3 class="center">Output:</h3>
+    <div class="center">
+        <textarea id="output" name="output" rows="4" cols="50" readonly placeholder="Interperter output will appear here..."></textarea>
+    </div>
+    <h3 class="center">Configurations</h3>
+    <div id="config" class="center">
+        <p style="display: inline-block; margin-right: 10px;">Number of cells:</p>
+        <input id="numcells" type="number" min="64" max="30000" placeholder="256">
+        <br>
+        <button id="run">Run</button>
+        <button id="reset">Reset</button>
+    </div>
+</body>
+</html>
