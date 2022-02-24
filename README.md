@@ -2,7 +2,7 @@
 Brainfuck implementation in JavaScript
 
 ## TODO
-- Add support for loops `[]`
+- ~~Add support for loops~~
 - Add examples
 
 ## License
